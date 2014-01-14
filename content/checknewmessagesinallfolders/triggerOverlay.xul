@@ -12,9 +12,9 @@
       accesskey="&menu.accesskey;">
       <menupopup id="checknewmessagesinallfolders-popup"
         data-label-check="&menu.check.label;"
-        data-accesskey-check="&menu.check.label;"
+        data-accesskey-check="&menu.check.accesskey;"
         data-label-uncheck="&menu.uncheck.label;"
-        data-accesskey-uncheck="&menu.uncheck.label;"
+        data-accesskey-uncheck="&menu.uncheck.accesskey;"
         onpopupshowing="CheckNewMessagesInAllFolders.onPopupShowing(event)"
         onpopuphiding="CheckNewMessagesInAllFolders.onPopupHiding(event)"
         oncommand="CheckNewMessagesInAllFolders.onCommand(event)"/>
@@ -27,9 +27,9 @@
       accesskey="&menu.accesskey;">
       <menupopup id="appmenu-checknewmessagesinallfolders-popup"
         data-label-check="&menu.check.label;"
-        data-accesskey-check="&menu.check.label;"
+        data-accesskey-check="&menu.check.accesskey;"
         data-label-uncheck="&menu.uncheck.label;"
-        data-accesskey-uncheck="&menu.uncheck.label;"
+        data-accesskey-uncheck="&menu.uncheck.accesskey;"
         onpopupshowing="CheckNewMessagesInAllFolders.onPopupShowing(event)"
         onpopuphiding="CheckNewMessagesInAllFolders.onPopupHiding(event)"
         oncommand="CheckNewMessagesInAllFolders.onCommand(event)"/>
