@@ -1,0 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY menu.label     "新着メールの確認">
+<!ENTITY menu.accesskey "t">
+<!ENTITY menu.check.label       "すべてのフォルダの新着メールを確認する">
+<!ENTITY menu.check.accesskey   "A">
+<!ENTITY menu.uncheck.label     "受信トレイの新着メールのみ確認する">
+<!ENTITY menu.uncheck.accesskey "I">

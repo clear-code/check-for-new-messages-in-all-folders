@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE overlay SYSTEM "chrome://checknewmessagesinallfolders/locale/messages.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="./triggerOverlay.js" />
+  <menupopup id="taskPopup">
+    <menu id="checknewmessagesinallfolders-menu"
+      insertafter="menu_import"
+      label="&menu.label;"
+      accesskey="&menu.accesskey;">
+      <menupopup id="checknewmessagesinallfolders-popup"
+        data-label-check="&menu.check.label;"
+        data-accesskey-check="&menu.check.label;"
+        data-label-uncheck="&menu.uncheck.label;"
+        data-accesskey-uncheck="&menu.uncheck.label;"
+        onpopupshowing="CheckNewMessagesInAllFolders.onPopupShowing(event)"
+        onpopuphiding="CheckNewMessagesInAllFolders.onPopupHiding(event)"
+        oncommand="CheckNewMessagesInAllFolders.onCommand(event)"/>
+    </menu>
+  </menupopup>
+  <menupopup id="appmenu_taskPopup">
+    <menu id="appmenu-checknewmessagesinallfolders-menu"
+      insertafter="appmenu_import"
+      label="&menu.label;"
+      accesskey="&menu.accesskey;">
+      <menupopup id="appmenu-checknewmessagesinallfolders-popup"
+        data-label-check="&menu.check.label;"
+        data-accesskey-check="&menu.check.label;"
+        data-label-uncheck="&menu.uncheck.label;"
+        data-accesskey-uncheck="&menu.uncheck.label;"
+        onpopupshowing="CheckNewMessagesInAllFolders.onPopupShowing(event)"
+        onpopuphiding="CheckNewMessagesInAllFolders.onPopupHiding(event)"
+        oncommand="CheckNewMessagesInAllFolders.onCommand(event)"/>
+    </menu>
+  </menupopup>
+</overlay>
